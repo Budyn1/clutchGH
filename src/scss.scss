@@ -1,8 +1,33 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
-  color: red;
+  color: black;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+
+.col-xs-6  {
+  text-align: center;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.footer {
+  min-height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shop {
+  min-height: 100vh;
+}
+
+.link-secondary {
+  width: auto;
+  text-decoration: none;
 }

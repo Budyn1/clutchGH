@@ -1,8 +1,9 @@
 import React from 'react';
+import "../scss.scss"
 
 const Shop = ({}) => {
   return (
-    <div>KUTAS</div>
+    <div className="shop">KUTAS</div>
   );
 }
 
