@@ -1,10 +1,22 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+html {
+  min-height: 100vh;
+}
+
 body {
   color: black;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .col-xs-6  {
@@ -21,10 +33,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-self: flex-end;
 }
 
 .shop {
-  min-height: 100vh;
+  flex-grow: 1;
 }
 
 .link-secondary {
