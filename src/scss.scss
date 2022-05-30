@@ -44,3 +44,15 @@ body {
   width: auto;
   text-decoration: none;
 }
+
+.contactForm {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contactDet {
+  min-width: 50% !important;
+}

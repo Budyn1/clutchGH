@@ -21,6 +21,7 @@ function App() {
         <Route path="/projectsOur" element={<Shop/>}/>
         <Route path="/contact" element={<ContactForm/>}/>
         <Route path="/login" element={<Shop/>}/>
+        <Route path="/" element={<Shop/>}/>
       </Routes>
       <Footer/>
     </div>
