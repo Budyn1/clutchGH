@@ -13,11 +13,11 @@ const NavBarComp = ({}) => {
       <Nav.Link href="shop">Shop</Nav.Link>
       <Nav.Link href="pricing">Pricing</Nav.Link>
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="3.1">Our Projects</NavDropdown.Item>
-        <NavDropdown.Item href="3.2">Client's Projects</NavDropdown.Item>
-        <NavDropdown.Item href="3.3">Fanpage</NavDropdown.Item>
+        <NavDropdown.Item href="projects">Our Projects</NavDropdown.Item>
+        <NavDropdown.Item href="projectsOur">Client's Projects</NavDropdown.Item>
+        <NavDropdown.Item href="fanpage">Fanpage</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="3.4">Partners</NavDropdown.Item>
+        <NavDropdown.Item href="partners">Partners</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Nav>

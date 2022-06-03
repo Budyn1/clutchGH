@@ -11,7 +11,7 @@ const ContactForm = ({}) => {
           <h5 className="m-4">ADRESS: Some randomw street you can choose</h5>
           <h5 className="m-4">NUMBER: 213 731 551</h5>
           <h5 className="m-4">EMAIL: business_email@mail.com</h5>
-          <h5 className="m-4 text-center">working hours</h5>
+          <h5 className="m-4 text-center">we are working 24/7</h5>
         </div>
         <div className="w-100 mb-5 mt-3">
             <Form className="w-100">

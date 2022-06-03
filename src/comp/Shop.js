@@ -1,7 +1,9 @@
 import React from 'react';
 import "../scss.scss"
 
-const Shop = ({}) => {
+const Shop = () => {
+
+
   return (
     <div className="shop">KUTAS</div>
   );

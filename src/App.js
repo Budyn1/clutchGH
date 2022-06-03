@@ -5,7 +5,8 @@ import  NavBarComp  from "./comp/NavBarComp.js"
 import Shop from "./comp/Shop.js"
 import Footer from "./comp/footer.js"
 import ContactForm from "./comp/contactForm.js"
-
+import Login from "./comp/Login.js"
+import Placeholder from "./comp/placeholder.js"
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
       <NavBarComp />
       <Routes>
         <Route path="/home" element={<Shop/>}/>
-        <Route path="/shop" element={<Shop/>}/>
-        <Route path="/pricing" element={<Shop/>}/>
-        <Route path="/fanpage" element={<Shop/>}/>
-        <Route path="/partners" element={<Shop/>}/>
-        <Route path="/projects" element={<Shop/>}/>
-        <Route path="/projectsOur" element={<Shop/>}/>
+        <Route path="/shop" element={<Placeholder page={"shop"}/>}/>
+        <Route path="/pricing" element={<Placeholder page={"pricing"}/>}/>
+        <Route path="/fanpage" element={<Placeholder page={"fanpage"}/>}/>
+        <Route path="/partners" element={<Placeholder page={"partners"}/>}/>
+        <Route path="/projects" element={<Placeholder page={"client's projects"}/>}/>
+        <Route path="/projectsOur" element={<Placeholder page={"projects"}/>}/>
         <Route path="/contact" element={<ContactForm/>}/>
         <Route path="/login" element={<Shop/>}/>
         <Route path="/" element={<Shop/>}/>
